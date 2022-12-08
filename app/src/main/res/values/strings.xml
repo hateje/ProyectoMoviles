@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Caso</string>
+    <string name="tv_correo">Correo</string>
+    <string name="tv_clave">Clave</string>
+    <string name="msg_fallo">Falló...</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Bienes Raíces HTA S.A.</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="title_activity_principal">Principal</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="msg_nombre">Nombre del lugar</string>
+    <string name="msg_imagen">Imagen del lugar</string>
+    <string name="msg_correo">Correo (elcorreo@xxx.xxx)</string>
+    <string name="msg_telefono">Telefono (9999-9999)</string>
+    <string name="msg_web">Sitio Web</string>
+    <string name="bt_addLugar">Agregar Lugar</string>
+    <string name="msg_lugar_added">Lugar Agregado</string>
+    <string name="msg_data">Faltan datos!!!</string>
+    <string name="bt_update_lugar">Actualizar Lugar</string>
+
+
+    <string name="msg_error">Revise los datos</string>
+    <string name="msg_exito">Lugar Guardado Exitosamente</string>
+    <string name="msg_lugar_updated">Lugar Actualizado Exitosamente</string>
+    <string name="bt_deleteLugar">Eliminar Lugar</string>
+    <string name="msg_lugarBorrado">Lugar ha sido borrado</string>
+    <string name="todo">To DO</string>
+    <string name="msgEscucharAudio">Escuchar Audio</string>
+    <string name="msg_nombre_Platillo">Nombre del platillo</string>
+    <string name="msg_descripcion_PLatillo">Descripcion del platillo</string>
+    <string name="msg_Precio">Precio</string>
+    <string name="bt_addPlatillo">Agregar Platillo</string>
+    <string name="bt_update_platillo">Actualizar Platillo</string>
+    <string name="bt_delete_platillo">Eliminar Platillo</string>
+    <string name="msg_exitoPlatillo">Platillo Guardado!</string>
+    <string name="msg_platilloBorrado">Platillo Borrado</string>
+    <string name="msg_imagenPropiedad">Imagen de la propiedad</string>
+    <string name="bt_addPropiedad">Agregar Propiedad</string>
+    <string name="msg_TelefonoCorredor">Teléfono del corredor</string>
+    <string name="msg_NombreCorredor">Nombre del corredor</string>
+    <string name="msg_precio">Precio</string>
+    <string name="msg_banos">Cantidad de baños</string>
+    <string name="msg_pisos">Cantidad de pisos</string>
+    <string name="msg_habitaciones">Cantidad de habitaciones</string>
+    <string name="msg_descripcion_Propiedad">Descripción de la propiedad</string>
+    <string name="msg_nombre_Propiedad">Nombre de la propiedad</string>
+    <string name="msg_exitoPropiedad">Propiedad guardada exitosamente...</string>
+    <string name="bt_update_propiedad">Actualizar Propiedad</string>
+    <string name="bt_delete_propiedad">Eliminar Propiedad</string>
+    <string name="msg_ppropiedadBorrada">Propiedad Borrada</string>
+</resources>

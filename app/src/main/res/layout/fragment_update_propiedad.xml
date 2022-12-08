@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/et_Nombreee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.caso.updatePropiedad">
+
+    <EditText
+        android:id="@+id/et_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/msg_nombre_Propiedad"
+        android:inputType="textPersonName"
+        android:text="@string/msg_nombre_Propiedad" />
+
+    <EditText
+        android:id="@+id/et_Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_descripcion_Propiedad" />
+
+    <EditText
+        android:id="@+id/et_Habitaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_habitaciones" />
+
+    <EditText
+        android:id="@+id/et_Pisos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_pisos" />
+
+    <EditText
+        android:id="@+id/et_Banos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_banos" />
+
+    <EditText
+        android:id="@+id/et_Precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_precio" />
+
+    <EditText
+        android:id="@+id/et_NombreCorredor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_NombreCorredor" />
+
+    <EditText
+        android:id="@+id/et_TelefonoCorredor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/msg_TelefonoCorredor" />
+
+    <Button
+        android:id="@+id/bt_update_propiedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_update_propiedad" />
+
+    <Button
+        android:id="@+id/bt_delete_propiedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_delete_propiedad" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:contentDescription="@string/msg_imagen"
+        android:scaleType="centerInside"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/backgrounds/scenic" />
+</LinearLayout>

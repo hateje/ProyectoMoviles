@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.caso.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_updatePropiedad"
+            app:destination="@id/updatePropiedad" />
+        <action
+            android:id="@+id/action_nav_home_to_agregarPropiedad"
+            app:destination="@id/agregarPropiedad" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.caso.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.caso.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/updatePropiedad"
+        android:name="com.example.caso.updatePropiedad"
+        android:label="Editar propiedades"
+        tools:layout="@layout/fragment_update_propiedad">
+        <action
+            android:id="@+id/action_updatePropiedad_to_nav_home"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="propiedad"
+            app:argType="com.example.caso.model.Propiedad" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarPropiedad"
+        android:name="com.example.caso.ui.home.agregarPropiedad"
+        android:label="Agregar propiedades"
+        tools:layout="@layout/fragment_agregar_propiedad">
+        <action
+            android:id="@+id/action_agregarPropiedad_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>
