@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     private fun refresca(user: FirebaseUser?) {
         if (user!=null) {
             //ME paso a la pantalal principal...
-            val intent= Intent(this,Principal::class.java)
+            val intent= Intent(this,MenuActivity::class.java)
             startActivity(intent)
         }
     }

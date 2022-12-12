@@ -7,13 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--on below line we are adding view pager -->
+      <!--se agrega el view pager -->
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/idViewPagerFiguras"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_centerInParent="true"
+        android:id="@+id/idViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:layout_margin="10dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
 
 </RelativeLayout>
